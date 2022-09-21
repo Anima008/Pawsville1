@@ -23,7 +23,7 @@ margin: 0;
 }
 .tool{
     font-size: 20px;
-    width: 300px;
+    width: 450px;
     justify-content: space-around;
 }
 .home{
@@ -52,6 +52,7 @@ margin: 0;
     border-top-right-radius: 500px;
     border-top-left-radius: 500px;
     object-fit: cover;
+    box-shadow: 5px 5px 10px;
 }
 .headline{
     display: flex;
@@ -135,6 +136,7 @@ font-size: 150px;
     height: 525px;
     border-radius: 100%;
     object-fit: cover;
+    box-shadow: 5px 0px 10px;
 }
 #Ppic5{
     position: absolute;
@@ -144,6 +146,7 @@ font-size: 150px;
     height: 300px;
     border-radius: 100%;
     object-fit: cover;
+    box-shadow: 5px 0px 10px;
 }
 .text6{
     position: absolute;
@@ -162,6 +165,7 @@ font-size: 150px;
     height: 420px;
     border-radius: 45%;
     object-fit: cover;
+    box-shadow: 5px 0px 10px;
 }
 #Ppic7{
     position: absolute;
@@ -171,6 +175,7 @@ font-size: 150px;
     height: 300px;
     border-radius: 45%;
     object-fit: cover;
+    box-shadow: 5px 0px 10px;
 }#Ppic8{
     position: absolute;
     top: 2200px;
@@ -179,6 +184,7 @@ font-size: 150px;
     height: 120px;
     border-radius: 100%;
     object-fit: cover;
+    box-shadow: 5px 0px 10px;
 }#Ppic9{
     position: absolute;
     top: 2200px;
@@ -187,6 +193,7 @@ font-size: 150px;
     height: 200px;
     border-radius: 100%;
     object-fit: cover;
+    box-shadow: 5px 0px 10px;
 }
 
 
