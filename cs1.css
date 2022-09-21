@@ -19,7 +19,6 @@ margin: 0;
 .Menubar .tool{
     display: flex;
     display: -webkit-flex;
-    
 }
 .tool{
     font-size: 20px;
