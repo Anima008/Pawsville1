@@ -12,7 +12,10 @@ html{
 body{
     background-color: #FFFFFF;
     font-family: Anaheim;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
+/*HEADER*/
 header{
     overflow: hidden;
     padding: 15px;
@@ -41,6 +44,7 @@ header a{
 .header-column-right a{
     padding: 10px 10px;
 }
+/*PART 1*/
 .top-introduction{
     width:100%;
     height: 93.5vh;
@@ -86,9 +90,12 @@ header a{
     text-align: center;
 }
 .top-introduction-container a:hover{
+    color: black;
+    font-weight: bold;
     background: none;
-    border: 3px black;
+    border: 1px solid black;
 }
+/*PART 2*/
 .introduction-part{
     width: 100%;
     height: 50vh;
@@ -113,12 +120,15 @@ header a{
     width: 100px;
     height: 100px;
 }
+/*PART 3*/
 #navigate-introduction-part{
     width: 100%;
     height: 100vh;
     background-color:bisque;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
 }
 .item-1{
     grid-column: 1 / span 2;
@@ -153,4 +163,31 @@ header a{
 .item-button:hover{
     background-color: gray;
     cursor: pointer;
+}
+/*PART 4*/
+.calendar-part{
+    width: 100%;
+    height: 60vh;
+}
+
+/*PART 5*/
+.other-services-part{
+    width: 100%;
+    height: 40vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.service-item1{
+    background-color: blueviolet;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+.service-item2{
+    background-color: aquamarine;
+    grid-row: 1;
+    grid-column: span 2;
+}
+.service-item3{
+    background-color: blue;
 }
