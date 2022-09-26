@@ -124,7 +124,6 @@ header a{
 #navigate-introduction-part{
     width: 100%;
     height: 100vh;
-    background-color:bisque;
     display: grid;
     grid-template-columns: auto auto auto auto;
     scroll-snap-type: y mandatory;
@@ -144,6 +143,7 @@ header a{
     width: 100%;
     height: 100%;
     position: relative;
+    background-color: bisque;
 }
 .item-container h4{
     font-size: 20px;
@@ -190,4 +190,24 @@ header a{
 }
 .service-item3{
     background-color: blue;
+}
+.card-service-item{
+    position: relative;
+    height: 100%;
+}
+.card-service-item h4{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    display: none;
+}
+.card-service-item img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
 }
