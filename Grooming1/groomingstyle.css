@@ -284,6 +284,7 @@ header a{
     right: 0;
     object-fit: cover;
 }
+<<<<<<< HEAD
 .footer{
     background-color: #F1E7E5;
     padding: 30px;
@@ -302,4 +303,136 @@ header a{
 .column{
     float:left;
     width: 33.33%;
+=======
+
+.calendar-part{
+    display: grid;
+
+}
+.calendar{
+    position: relative;
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.calendar-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.calendar-body{
+    padding: 10px;
+}
+
+.calendar-week-day{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 300;
+}
+
+.calendar-week-day div {
+    display: grid;
+    place-items: center;
+}
+
+.calendar-day{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+}
+
+.calendar-day div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.calendar-day div:hover{
+    background-color: #466B59;
+}
+
+.month-pick{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.month-pick:hover{
+    background-color: #466B59;
+}
+
+.year-pick{
+    display: flex;
+    align-items: center;
+}
+
+.year-change {
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.year-change:hover{
+    background-color: #466B59;
+}
+
+.calendar-day div.curr-date{
+    background-color: rgb(151, 224, 34);
+    color:black;
+}
+
+.calendar-day div.curr-date span{
+    display: none;
+}
+
+.month-list{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    transform: scale(1.5);
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.month-list.show{
+    transform: scale(1);
+    visibility: visible;
+    pointer-events: visible;
+}
+
+.month-list > div{
+    display: grid;
+    place-items: center;
+}
+.month-list > div > div{
+    width: 100%;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.month-list > div > div:hover{
+    background-color: #466B59;
+>>>>>>> 8e3e9491e630bbe26bb253b6bed966ded70a6074
 }

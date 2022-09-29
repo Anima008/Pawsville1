@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/563cbfa489.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="groomingstyle.css" type="text/css"></link>
-    <script src="grooming.js"></script>
+    
 </head>
 <body>
     <header>
@@ -87,8 +87,37 @@
         </div>
     </div>
     <div class="calendar-part">
-        calendar will add later
+        <div class="calendar">
+            <div class="calendar-head">
+                <span class="month-pick" id="month-pick">
+                    September
+                </span>
+                <div class="year-pick">
+                    <span class="year-change" id="pre-year">
+                        <pre><</pre>
+                    </span>
+                    <span id="year">2022</span>
+                    <span class="year-change" id="next-year">
+                        <pre>></pre>
+                    </span>
+                </div>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-week-day">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+                <div class="calendar-day"></div>
+            </div>
+            <div class="month-list"></div>
+        </div>
     </div>
+    <script src="grooming.js"></script>
     <div class="other-services-part">
         <div class="service-item1">
             <div class="card-service-item">
