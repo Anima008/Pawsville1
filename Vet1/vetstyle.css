@@ -250,8 +250,7 @@
     background-color: #ACACAC;
     border-radius: 20px;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: space-between;
   }
   .text-field{
     padding-top: 55px;
@@ -270,7 +269,7 @@
   }
   .advertise-container button{
     margin-left: 22%;
-    display: block;
+    display: flex;
     text-decoration:none;
     color: #F4F4F4;
     background-color: #444444;
@@ -278,11 +277,12 @@
     border: none;
     text-align: center;
     font-size: small;
-    padding: 8px 50px;
+    padding: 5px 50px;
   }
   .advertise-container button p{
     text-align: center;
     justify-content: center;
+    padding: auto;
   }
   .advertise-container button:hover{
     background-color: black;
@@ -292,6 +292,8 @@
     width: 450px;
     height: 210px;
     background-color: grey;
+    object-fit: cover;
+    object-position: center;
   }
   .row-ad{
     display: flex;
@@ -323,6 +325,8 @@
     display: block;
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
   .sub-content-with-picture img:hover{
     transition: 0.2s;
@@ -353,22 +357,26 @@
     .file-content{
       width: 95%;
     }
+    .advertise-container{
+      width: auto;
+   
   }
+}
   /*phone*/
   @media screen and (max-width: 500px) {
     header{
-      font-size: 10px;
+      font-size: 15px;
       padding: 5px;
     }
     .header-right{
       overflow-y: hidden;
     }
     body{
-      font-size: 10px;
+      font-size: 12px;
     }
     nav{
       padding: 5px;
-      font-size: 10px;
+      font-size: 12px;
     }
     .navbar{
       overflow-y: hidden;
@@ -379,15 +387,14 @@
       height: 0px;
       padding: 10px;
       text-align: center;
-      font-size: 9px;
     }
     .top-content-container-button{
       top: 60%;
       padding: 10px 15px;
-      font-size: 7px;
+      font-size: 10px;
     }
     .file-content h2{
-      font-size: 12px;
+      font-size: 13px;
     }
     .file-content{
       width: auto;
@@ -395,7 +402,7 @@
       padding: 10px;
     }
     .file-content .tablink{
-      font-size: 10px;
+      font-size: 12px;
       padding: 10px 0px 15px 10px;
       border-radius: 10px;
     }
@@ -408,10 +415,10 @@
     }
     .container{
       padding: 5px 5px 5px 5px;
-      font-size: 7px;
+      font-size: 10px;
     }
     .row{
-      font-size: 7px;
+      font-size: 10px;
       width: 100%;
       display: block;
     }
@@ -449,13 +456,14 @@
       text-align: justify;
       padding-top: none;
       transition-timing-function: ease-in-out;
+      overflow-y: hidden;
     }
     .item3 p{
       padding: 0px 10px;
     }
     .advertise-container{
       width: auto;
-      height: 70px;
+      height: 100px;
       overflow-y: hidden;
       border-radius: 8px;
       padding: 5px;
@@ -480,10 +488,10 @@
       padding-bottom: 10px;
     }
     .advertise h3{
-      font-size: 9px;
+      font-size: 12px;
     }
     .advertise p{
-      font-size: 7px;
+      font-size: 10px;
     }
     .advertise-container button{
       overflow-y: hidden;
@@ -503,7 +511,7 @@
       background-color: grey;
     }
     .sub-content-with-picture{
-      font-size: 8px;
+      font-size: 10px;
     }
     .sub-content-with-picture h3{
       font-size: 12px;
@@ -514,7 +522,7 @@
     .sub-content-with-picture-container{
       position: relative;
       width:100%;
-      height: 200px;
+      height: 130px;
       overflow-x: auto;
     }
     .sub-content-with-picture-container::-webkit-scrollbar{
@@ -528,7 +536,7 @@
     .pic-column{
       background-color: #6C878C;
       width: 100px;
-      height: 150px;
+      height: 100px;
       margin: 10px;
       overflow-y: hidden;
       display: inline-block;
@@ -536,5 +544,7 @@
     .pic-column img{
       width: 100%;
       height: 150px;
+      object-fit: cover;
+      object-position: center;
     }
   }
