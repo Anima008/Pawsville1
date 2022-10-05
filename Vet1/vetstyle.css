@@ -303,6 +303,7 @@
     display: block;
     float: left;
     width: 50%;
+    padding: 10px;
   }
   /*sub-content with picture*/
   .sub-content-with-picture{
@@ -359,7 +360,69 @@
     }
     .advertise-container{
       width: auto;
-   
+  }
+  .column-ad .text-field{
+    display: contents;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+  .advertise{
+    padding-bottom: 10px;
+  }
+  .advertise h3{
+    font-size: 18px;
+  }
+  .advertise p{
+    font-size: 15px;
+  }
+  .advertise .text-field{
+    position: relative;
+    top: 20px;
+    padding-top: 10px;
+  }
+  .advertise-container button{
+    position: relative;
+    top: 50px;
+    overflow-y: hidden;
+    margin-left: 20%;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+ 
+  .sub-content-with-picture h3{
+    font-size: 15px;
+  }
+  .sub-content-with-picture p{
+    font-size: 13px;
+  }
+  .sub-content-with-picture-container{
+    position: relative;
+    width:100%;
+    height: 200px;
+    overflow-x: auto;
+  }
+  .sub-content-with-picture-container::-webkit-scrollbar{
+    width: 0px;
+    display: none;
+  }
+  .pic-row{
+    position: absolute;
+    width: 155%;
+  }
+  .pic-column{
+    background-color: #6C878C;
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+    overflow-y: hidden;
+    display: inline-block;
+  }
+  .pic-column img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
   }
 }
   /*phone*/
@@ -439,6 +502,7 @@
       padding: 10px;
       height: 20px;
       padding-bottom: none;
+      overflow-y: hidden;
     }
     .item2{
       padding: 5px;
@@ -494,6 +558,8 @@
       font-size: 10px;
     }
     .advertise-container button{
+      position: relative;
+      top: 0px;
       overflow-y: hidden;
       height: 20px;
       margin-left: 20%;
@@ -501,6 +567,7 @@
     }
     button p{
       padding: 5px;
+      font-size: 8px;
     }
     .advertise-container button:hover{
       background-color: black;

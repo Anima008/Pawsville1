@@ -284,7 +284,6 @@ header a{
     right: 0;
     object-fit: cover;
 }
-<<<<<<< HEAD
 .footer{
     background-color: #F1E7E5;
     padding: 30px;
@@ -303,8 +302,8 @@ header a{
 .column{
     float:left;
     width: 33.33%;
-=======
-
+}
+/*calendar part*/
 .calendar-part{
     display: grid;
 
@@ -434,5 +433,10 @@ header a{
 
 .month-list > div > div:hover{
     background-color: #466B59;
->>>>>>> 8e3e9491e630bbe26bb253b6bed966ded70a6074
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 500px) {
+    
 }
