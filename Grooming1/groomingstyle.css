@@ -309,11 +309,14 @@ header a{
 
 }
 .calendar{
+    color: #575757;
     position: relative;
     height: max-content;
     width: max-content;
     padding: 20px;
     overflow: hidden;
+    font-weight: 1000;
+    font-size: 25px;
 }
 
 .calendar-head{
@@ -321,7 +324,7 @@ header a{
     justify-content: space-around;
     align-items: center;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 1000;
     padding: 10px;
 }
 
@@ -332,7 +335,6 @@ header a{
 .calendar-week-day{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    font-weight: 300;
 }
 
 .calendar-week-day div {
