@@ -231,8 +231,241 @@ font-size: 150px;
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 480px){
 
+    body{
+        background-color: black;
+    }
+    *{
+    margin: 0;
+    }
+    .Menubar{
+        margin: 0;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        display: flex;
+        padding: 15px;
+        padding-left: 50px;
+        justify-content: space-between;
+        align-items: center;
+        width: 1135px;
+    }
+    .Menubar .tool{
+        display: flex;
+        display: -webkit-flex;
+    }
+    .tool{
+        font-size: 20px;
+        width: 550px;
+        justify-content: space-around;
+    }
+    .home{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 40px;
+        
+    } 
+    .tool1{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .backP1{
+        width: 1200px;
+        height: 650px;
+        filter: brightness(50%);
+    }
+    .P1{
+        position: absolute;
+        top: 100px;
+        left: 710px;
+    }
+    #Ppic1{
+        width: 385px;
+        height: 595px;
+        border-top-right-radius: 500px;
+        border-top-left-radius: 500px;
+        object-fit: cover;
+        box-shadow: 5px 5px 10px;
+    }
+    .headline{
+        display: flex;
+        position: absolute;
+        top: 120px;
+        left: 55px;
+        align-items: baseline;
+    }
+    .head1{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    
+    }
+    .head2{
+        width: 200px;
+        color: rgb(255, 255, 255);
+        padding-left: 5px;
+        font-size: 30px;
+    }
+    .text1{
+        position: absolute;
+        top: 220px;
+        left: 55px;
+        width: 620px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    
+    }
+    .text2{
+        position: absolute;
+        top: 360px;
+        left: 55px;
+        width: 600px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    
+    }
+    .text3{
+        position: absolute;
+        top: 450px;
+        left: 55px;
+        width: 400px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    
+    
+    
+    .headp2{
+        position: absolute;
+        top: 870px;
+        left: 585px;
+        width: 500px;
+        color: rgb(255, 255, 255);
+        font-size: 80px;
+        text-align: right;
+    }
+    .text4{
+        position: absolute;
+        top: 980px;
+        left: 590px;
+        width: 500px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: right;
+    
+    }
+    .text5{
+        position: absolute;
+        top: 1080px;
+        left: 690px;
+        width: 400px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        text-align: right;
+    }
+    #Ppic4{
+        position: absolute;
+        top: 720px;
+        left: 125px;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px;
+    }
+    #Ppic5{
+        position: absolute;
+        top: 1000px;
+        left: 400px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px;
+    }
+    .text6{
+        position: absolute;
+        top: 1135px;
+        left: 120px;
+        width: 300px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    
+    #Ppic6{
+        position: absolute;
+        top: 1400px;
+        left: 870px;
+        width: 250px;
+        height: 320px;
+        border-radius: 45%;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px;
+    }
+    #Ppic7{
+        position: absolute;
+        top: 1620px;
+        left: 700px;
+        width: 170px;
+        height: 200px;
+        border-radius: 45%;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px;
+    }#Ppic8{
+        position: absolute;
+        top: 1745px;
+        left: 890px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px;
+    }#Ppic9{
+        position: absolute;
+        top: 1745px;
+        left: 1010px;
+        width: 140px;
+        height: 140px;
+        border-radius: 100%;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px;
+    }
+    
+    
+    .headp3{
+        position: absolute;
+        top: 1430px;
+        left: 120px;
+        width: 100px;
+        color: rgb(255, 255, 255);
+        font-size: 80px;
+    }
+    .text7{
+        position: absolute;
+        top: 1520px;
+        left: 120px;
+        width: 600px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    
+    }
+    .text8{
+        position: absolute;
+        top: 1660px;
+        left: 120px;
+        width: 400px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    .text9{
+        position: absolute;
+        top: 1780px;
+        left: 120px;
+        width: 350px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+    }
+    
 }
 @media only screen and (max-width: 768px){
 
