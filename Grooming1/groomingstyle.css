@@ -215,6 +215,7 @@ header a{
     height: 60vh;
 }
 
+
 /*PART 5*/
 .other-services-part{
     width: 100%;
@@ -323,6 +324,7 @@ header a{
 }
 
 .calendar-head{
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -367,7 +369,8 @@ header a{
 }
 
 .month-pick{
-    padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 30px;
     cursor: pointer;
 }
 
@@ -435,6 +438,33 @@ header a{
     text-align: center;
     cursor: pointer;
 }
+
+.calendar-head .headmonth{
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+.calendar-head .monthpick{
+    position: absolute;
+    top: 17px;
+    left: 120px;
+    rotate: 90deg;
+    cursor: pointer;
+}
+.calendar-head .headyear{
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    left: 180px;
+}
+#pre-year{
+    rotate: 270deg;
+}
+#next-year{
+    rotate: 270deg;
+}
+
 
 .month-list > div > div:hover{
     background-color: #466B59;
