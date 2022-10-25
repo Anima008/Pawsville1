@@ -14,6 +14,8 @@ body{
     font-family: Anaheim;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    margin-left: 0;
+    margin-right: 0;
 }
 /*HEADER*/
 header{
@@ -51,7 +53,7 @@ header a{
     background-image: url("../Grooming1/groomingpic/background-grooming.png");
 }
 .top-introduction-container{
-    width:45%;
+    width:55%;
     height: 300px;
     float: left;
     margin-top: auto;
@@ -79,7 +81,6 @@ header a{
     margin: 15px 10px;
 }
 .top-introduction-container a{
-    width: 30%;
     margin: 10px;
     background-color: black;
     color: #FFFFFF;
@@ -101,7 +102,7 @@ header a{
     height: 50vh;
 }
 .content-container{
-    width: 600px;
+    width: 60%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -123,7 +124,7 @@ header a{
 /*PART 3*/
 #navigate-introduction-part{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: grid;
     grid-template-columns:25% 25% 25% 25%;
     scroll-snap-type: y mandatory;
@@ -306,7 +307,7 @@ header a{
 /*calendar part*/
 .calendar-part{
     position: relative;
-    height: 70vh;
+    height: 90vh;
     display: grid;
 
 }
@@ -438,13 +439,156 @@ header a{
 .month-list > div > div:hover{
     background-color: #466B59;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .top-introduction-container{
+        width: 70%;
+    }
+    .item-container h4{
+        font-size: 20px;
+    }
     .item-container p{
         font-size: 13px;
     }
+    .item-button {
+        width:50%;
+        bottom:35px;
+        padding: 13px 30px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .top-introduction-container h1{
+        font-size: 100px;
+    }
+    .content-container{
+        width: 80%;
+    }
+    .item-container{
+        padding:20px;
+        top:10%;
+    }
+    .item-button{
+        bottom:25%;
+        padding: 10px 30px;
+    }
+    .item-container p{
+        font-size: 10px;
+    }
+    #navigate-introduction-part{
+        height: 150vh;
+        grid-template-columns:33.33% 33.33% 33.33%;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+    .item-1{
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+    .item-2{
+        grid-row: 1;
+        grid-column: 3;
+    }
+    .item-3{
+        grid-row: 4;
+        grid-column: 3;
+    }
+    .item-4{
+        grid-row: 2;
+        grid-column: 3;
+    }
+    .item-5{
+        grid-row: 3;
+        grid-column: 3;
+    }
+    .item-6{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .item-7{
+        grid-row: 3;
+        grid-column: 2;
+    
+    }
+    .item-8{
+        grid-row: 4;
+        grid-column: 2;
+    }
+    .item-9{
+        grid-row: 4;
+        grid-column: 1;
+    }
 }
 @media screen and (max-width: 500px) {
+    .header-row{
+        grid-template-columns: 40% 20% 40%;
+    }
+    .top-introduction-container h1{
+        font-size: 75px;
+    }
+    .top-introduction-container h3{
+        font-size: 25px;
+    }
+    .top-introduction-container p{
+        font-size: 15px;
+    }
+    .top-introduction-container a{
+        padding: 12px 30px;
+        bottom:15px;
+    }
+    .content-container h2{
+        font-size: 25px;
+    }
+    .content-container p{
+        font-size: 10px;
+    }
+    .item-container p{
+        font-size: 10px;
+    }
+    .item-button{
+        width: 80%;
+        padding: 8px 30px;
+    }
+    #navigate-introduction-part{
+        height: 200vh;
+        grid-template-columns:50% 50%;
+        grid-template-rows:16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    }
+    .item-1{
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+    }
+    .item-2{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .item-3{
+        grid-row: 4;
+        grid-column: 1;
+    }
+    .item-4{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .item-5{
+        grid-row: 4;
+        grid-column: 2;
+    }
+    .item-6{
+        grid-row: 5;
+        grid-column: 1;
+    }
+    .item-7{
+        grid-row: 5;
+        grid-column: 2;
     
+    }
+    .item-8{
+        grid-row: 6;
+        grid-column: 2;
+    }
+    .item-9{
+        grid-row: 6;
+        grid-column: 1;
+    }
 }
 @media screen and (max-width: 320px) {
     
